@@ -14,15 +14,15 @@ MAX_M = 15      # truncate the indexes m2..m5 at this value. Runtime is O(MAX_M^
 PRECISION = 40    # decimal digits of precision for mpmath
 
 
-MU_C0 = 0.0
-MU_C1 = 2.0  # Scale to c_1 = 2.0 for numerical stability.
+MU_C0 = 0.0  # For numerical stability
+MU_C1 = 2.0  # For numerical stability
 MU_C2 = 0.0
 MU_C3 = 0.0
 MU_C4 = 0.0
 MU_C5 = 0.0
 
-SIGMA_C0 = 1.0
-SIGMA_C1 = 0.0 # Scale to c_1 = 2.0 for numerical stability.
+SIGMA_C0 = 0.5  # For numerical stability
+SIGMA_C1 = 0.1  # For numerical stability
 SIGMA_C2 = 1.0
 SIGMA_C3 = 1.0
 SIGMA_C4 = 1.0
